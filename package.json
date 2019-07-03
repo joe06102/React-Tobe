@@ -1,8 +1,8 @@
 {
   "name": "react-tobe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To be or not to be, that is the question",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepare": "npx babel src -d lib"
   },
