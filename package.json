@@ -1,0 +1,34 @@
+{
+  "name": "react-tobe",
+  "version": "1.0.0",
+  "description": "To be or not to be, that is the question",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npx babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe06102/React-Tobe.git"
+  },
+  "keywords": [
+    "react",
+    "condition",
+    "if",
+    "else"
+  ],
+  "author": "joe06102",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joe06102/React-Tobe/issues"
+  },
+  "homepage": "https://github.com/joe06102/React-Tobe#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
