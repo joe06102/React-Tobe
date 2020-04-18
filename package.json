@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "To be or not to be, that is the question",
   "main": "lib/index.js",
+  "types": "index.d.ts",  
   "scripts": {
     "prepare": "npx babel src -d lib"
   },
