@@ -1,0 +1,23 @@
+{
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "./src/**/*.ts",
+      "./src/**/*.tsx",
+      "**.d.ts"
+    ],
+    "compilerOptions": {
+      "sourceMap": false,
+      "noImplicitAny": false,
+      "module": "CommonJS",
+      "target": "es5",
+      "moduleResolution": "node",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "baseUrl": ".",
+      "outDir": "lib"
+    }
+  }
+  

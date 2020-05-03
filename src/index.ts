@@ -13,6 +13,7 @@ export const Choose = ({ condition, children }) => {
     return (
         React.Children
             .toArray(children)
+            //@ts-ignore
             .filter(c => (c.type !== OrNot) ^ !condition)
             .map(c => render(c))
     )
