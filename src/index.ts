@@ -18,7 +18,7 @@ export function Choose({ condition, children }) {
         React.Children
             .toArray(children)
             //@ts-ignore
-            .filter(c => (c.type !== OrNot) ^ !condition)
+            .filter(c => (c.type.$name !== 'OrNot') ^ !condition)
             .map(c => render(c))
     )
 }
