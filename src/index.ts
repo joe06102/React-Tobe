@@ -1,15 +1,19 @@
 import React from 'react'
 import render from './render'
 
-export const Tobe = ({ children }) => {
+export function Tobe({ children }) {
     return render(children)
 }
 
-export const OrNot = ({ children }) => {
+Tobe.$name = 'Tobe'
+
+export function OrNot({ children }) {
     return render(children)
 }
 
-export const Choose = ({ condition, children }) => {
+OrNot.$name = 'OrNot'
+
+export function Choose({ condition, children }) {
     return (
         React.Children
             .toArray(children)
@@ -18,3 +22,5 @@ export const Choose = ({ condition, children }) => {
             .map(c => render(c))
     )
 }
+
+Choose.$name = 'Choose'
